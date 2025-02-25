@@ -30,9 +30,6 @@ final class HomeController extends AbstractController
     
         $em->flush();*/
             
-        return $this->render('home/index.html.twig', [
-            'controller_name' => 'HomeController',
-        ]);
-        
+        return $this->render('home/index.html.twig');
     }
 }
